@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx != 0  时跳转
+</description>
+    <content><![CDATA[
+BNEZ ${1:rx} ${2:imm}
+    	]]></content>
+    <tabTrigger>BNEZ</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

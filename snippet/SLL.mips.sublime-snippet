@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ← ry＜＜immediate(L)
+</description>
+    <content><![CDATA[
+SLL ${1:rx} ${2:ry} ${3:imm}
+    	]]></content>
+    <tabTrigger>SLL</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ＜ ry 时， T ← 1
+</description>
+    <content><![CDATA[
+SLT ${1:rx} ${2:ry}
+    	]]></content>
+    <tabTrigger>SLT</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

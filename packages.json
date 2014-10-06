@@ -1,0 +1,20 @@
+{
+	"schema_version": "1.0",
+	"packages": [
+		{
+			"name": "THCO-MIPS-Syntax",
+			"description": "Provides THCO-MIPS-Syntax for Sublime Text 2",
+			"author": "Dun Liang",
+			"homepage": "https://github.com/cjld/THCO-MIPS-Syntax",
+			"last_modified": "2014-10-06 11:29:24",
+			"platforms": {
+				"*": [
+					{
+						"version": "0.1",
+						"url": "https://"
+					}
+				]
+			}
+		}
+	]
+}

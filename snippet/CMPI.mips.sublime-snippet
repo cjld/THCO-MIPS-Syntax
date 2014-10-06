@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx = imm  时 T ← 0
+</description>
+    <content><![CDATA[
+CMPI ${1:rx} ${2:imm}
+    	]]></content>
+    <tabTrigger>CMPI</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

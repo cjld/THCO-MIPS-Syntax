@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ← ry
+</description>
+    <content><![CDATA[
+MOVE ${1:rx} ${2:ry}
+    	]]></content>
+    <tabTrigger>MOVE</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

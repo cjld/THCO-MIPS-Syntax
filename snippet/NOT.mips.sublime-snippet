@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ← ~ ry
+</description>
+    <content><![CDATA[
+NOT ${1:rx} ${2:ry}
+    	]]></content>
+    <tabTrigger>NOT</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

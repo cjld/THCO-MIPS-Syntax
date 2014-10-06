@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ← IH
+</description>
+    <content><![CDATA[
+MFIH ${1:rx}
+    	]]></content>
+    <tabTrigger>MFIH</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

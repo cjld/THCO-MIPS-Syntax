@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ← SP + sign_ext(imm)
+</description>
+    <content><![CDATA[
+ADDSP3 ${1:rx} ${2:imm}
+    	]]></content>
+    <tabTrigger>ADDSP3</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

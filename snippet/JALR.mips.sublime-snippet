@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>PC ← rx RA ← PC
+</description>
+    <content><![CDATA[
+JALR ${1:rx}
+    	]]></content>
+    <tabTrigger>JALR</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

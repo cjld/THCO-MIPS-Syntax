@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ← rx || ry
+</description>
+    <content><![CDATA[
+OR ${1:rx} ${2:ry}
+    	]]></content>
+    <tabTrigger>OR</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

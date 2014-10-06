@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ← + sign_ext(imm)
+</description>
+    <content><![CDATA[
+LI ${1:rx} ${2:imm}
+    	]]></content>
+    <tabTrigger>LI</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

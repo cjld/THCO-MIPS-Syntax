@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>ry ← ry>>rx(L)
+</description>
+    <content><![CDATA[
+SRLV ${1:rx} ${2:ry}
+    	]]></content>
+    <tabTrigger>SRLV</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ← rx + sign_ext(imm)
+</description>
+    <content><![CDATA[
+ADDIU ${1:rx} ${2:imm}
+    	]]></content>
+    <tabTrigger>ADDIU</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

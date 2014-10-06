@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>SP ← rx
+</description>
+    <content><![CDATA[
+MTSP ${1:rx}
+    	]]></content>
+    <tabTrigger>MTSP</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

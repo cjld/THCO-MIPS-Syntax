@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ← PC
+</description>
+    <content><![CDATA[
+MFPC ${1:rx}
+    	]]></content>
+    <tabTrigger>MFPC</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

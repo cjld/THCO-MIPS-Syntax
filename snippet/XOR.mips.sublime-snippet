@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ← rx ⊕ ry
+</description>
+    <content><![CDATA[
+XOR ${1:rx} ${2:ry}
+    	]]></content>
+    <tabTrigger>XOR</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

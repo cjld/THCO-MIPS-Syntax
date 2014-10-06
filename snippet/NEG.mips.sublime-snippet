@@ -1,0 +1,11 @@
+
+<snippet>
+    <description>rx ← 0 - ry
+</description>
+    <content><![CDATA[
+NEG ${1:rx} ${2:ry}
+    	]]></content>
+    <tabTrigger>NEG</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	
