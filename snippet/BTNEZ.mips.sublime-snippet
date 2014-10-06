@@ -1,9 +1,7 @@
 
 <snippet>
-    <description>T !=0 时 时  跳转
-</description>
-    <content><![CDATA[BTNEZ ${1:imm}${2: ;BTNEZ imm # T !=0 时 时  跳转
-}]]></content>
+    <description> imm # T !=0 时 时  跳转</description>
+    <content><![CDATA[BTNEZ ${1:imm}${2: ; imm # T !=0 时 时  跳转}]]></content>
     <tabTrigger>BTNEZ</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

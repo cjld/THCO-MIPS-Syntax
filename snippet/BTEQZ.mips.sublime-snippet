@@ -1,9 +1,7 @@
 
 <snippet>
-    <description>T = 0  时跳转
-</description>
-    <content><![CDATA[BTEQZ ${1:imm}${2: ;BTEQZ imm # T = 0  时跳转
-}]]></content>
+    <description> imm # T = 0  时跳转</description>
+    <content><![CDATA[BTEQZ ${1:imm}${2: ; imm # T = 0  时跳转}]]></content>
     <tabTrigger>BTEQZ</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

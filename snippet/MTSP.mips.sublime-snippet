@@ -1,9 +1,7 @@
 
 <snippet>
-    <description>SP ← rx
-</description>
-    <content><![CDATA[MTSP ${1:rx}${2: ;MTSP rx # SP ← rx
-}]]></content>
+    <description> rx # SP ← rx</description>
+    <content><![CDATA[MTSP ${1:rx}${2: ; rx # SP ← rx}]]></content>
     <tabTrigger>MTSP</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

@@ -1,9 +1,7 @@
 
 <snippet>
-    <description>rx ＜ ry 时， T ← 1
-</description>
-    <content><![CDATA[SLT ${1:rx} ${2:ry}${3: ;SLT rx ry # rx ＜ ry 时， T ← 1
-}]]></content>
+    <description> rx ry # rx ＜ ry 时， T ← 1</description>
+    <content><![CDATA[SLT ${1:rx} ${2:ry}${3: ; rx ry # rx ＜ ry 时， T ← 1}]]></content>
     <tabTrigger>SLT</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

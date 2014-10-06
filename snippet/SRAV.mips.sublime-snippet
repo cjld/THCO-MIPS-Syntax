@@ -1,9 +1,7 @@
 
 <snippet>
-    <description>ry ← ry>>rx(A)
-</description>
-    <content><![CDATA[SRAV ${1:rx} ${2:ry}${3: ;SRAV rx ry # ry ← ry>>rx(A)
-}]]></content>
+    <description> rx ry # ry ← ry>>rx(A)</description>
+    <content><![CDATA[SRAV ${1:rx} ${2:ry}${3: ; rx ry # ry ← ry>>rx(A)}]]></content>
     <tabTrigger>SRAV</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

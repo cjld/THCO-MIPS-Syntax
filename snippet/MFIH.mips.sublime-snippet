@@ -1,9 +1,7 @@
 
 <snippet>
-    <description>rx ← IH
-</description>
-    <content><![CDATA[MFIH ${1:rx}${2: ;MFIH rx # rx ← IH
-}]]></content>
+    <description> rx # rx ← IH</description>
+    <content><![CDATA[MFIH ${1:rx}${2: ; rx # rx ← IH}]]></content>
     <tabTrigger>MFIH</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

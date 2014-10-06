@@ -1,9 +1,7 @@
 
 <snippet>
-    <description>空指令
-</description>
-    <content><![CDATA[NOP${1: ;NOP # 空指令
-}]]></content>
+    <description> # 空指令</description>
+    <content><![CDATA[NOP${1: ; # 空指令}]]></content>
     <tabTrigger>NOP</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>
