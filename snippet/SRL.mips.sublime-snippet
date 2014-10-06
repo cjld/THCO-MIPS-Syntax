@@ -2,9 +2,7 @@
 <snippet>
     <description>rx ← ry>>immediate(L)
 </description>
-    <content><![CDATA[
-SRL ${1:rx} ${2:ry} ${3:imm}
-    	]]></content>
+    <content><![CDATA[SRL ${1:rx} ${2:ry} ${3:imm}]]></content>
     <tabTrigger>SRL</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

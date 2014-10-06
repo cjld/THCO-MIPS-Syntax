@@ -2,9 +2,7 @@
 <snippet>
     <description>软中断
 </description>
-    <content><![CDATA[
-INT ${1:imm}
-    	]]></content>
+    <content><![CDATA[INT ${1:imm}]]></content>
     <tabTrigger>INT</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

@@ -2,9 +2,7 @@
 <snippet>
     <description>ry ← rx + sign_ext(imm)
 </description>
-    <content><![CDATA[
-ADDIU3 ${1:rx} ${2:ry} ${3:imm}
-    	]]></content>
+    <content><![CDATA[ADDIU3 ${1:rx} ${2:ry} ${3:imm}]]></content>
     <tabTrigger>ADDIU3</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

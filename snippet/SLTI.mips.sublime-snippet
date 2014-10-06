@@ -2,9 +2,7 @@
 <snippet>
     <description>rx ＜ s_ext(imm)时 时 T ← 1
 </description>
-    <content><![CDATA[
-SLTI ${1:rx} ${2:imm}
-    	]]></content>
+    <content><![CDATA[SLTI ${1:rx} ${2:imm}]]></content>
     <tabTrigger>SLTI</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

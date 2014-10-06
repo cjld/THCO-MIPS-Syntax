@@ -2,9 +2,7 @@
 <snippet>
     <description>rz ← rx + ry
 </description>
-    <content><![CDATA[
-ADDU ${1:rx} ${2:ry} ${3:rz}
-    	]]></content>
+    <content><![CDATA[ADDU ${1:rx} ${2:ry} ${3:rz}]]></content>
     <tabTrigger>ADDU</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

@@ -2,9 +2,7 @@
 <snippet>
     <description>T !=0 时 时  跳转
 </description>
-    <content><![CDATA[
-BTNEZ ${1:imm}
-    	]]></content>
+    <content><![CDATA[BTNEZ ${1:imm}]]></content>
     <tabTrigger>BTNEZ</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

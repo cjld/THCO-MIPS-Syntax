@@ -2,9 +2,7 @@
 <snippet>
     <description>rx ← MEM[SP + imm]
 </description>
-    <content><![CDATA[
-LW_SP ${1:rx} ${2:imm}
-    	]]></content>
+    <content><![CDATA[LW_SP ${1:rx} ${2:imm}]]></content>
     <tabTrigger>LW_SP</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

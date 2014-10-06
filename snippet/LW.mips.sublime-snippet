@@ -2,9 +2,7 @@
 <snippet>
     <description>ry ← MEM[rx + imm]
 </description>
-    <content><![CDATA[
-LW ${1:rx} ${2:ry} ${3:imm}
-    	]]></content>
+    <content><![CDATA[LW ${1:rx} ${2:ry} ${3:imm}]]></content>
     <tabTrigger>LW</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>
