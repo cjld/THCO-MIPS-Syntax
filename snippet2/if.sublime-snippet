@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+; ${1:name} if ${2:R1} < ${3:R2}
+SLTU $2 $3
+BTNEZ $1_if_end
+	; if content
+	$4
+$1_if_end:
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>if</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.mips</scope>
+</snippet>

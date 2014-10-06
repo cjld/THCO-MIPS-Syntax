@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+; ${1:name} for loop begin
+; [${2:RS}, ${3:RT}), step ${4:0x1}
+$1_loop_start:
+CMP $2 $3
+BTEQZ $1_loop_end
+	; loop content
+	${5}
+ADDIU $2 $4
+B $1_loop_start
+$1_loop_end:
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>for</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.mips</scope>
+</snippet>
