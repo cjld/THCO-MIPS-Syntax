@@ -1,0 +1,8 @@
+
+<snippet>
+    <description> rx imm # rx ← MEM[SP + imm]</description>
+    <content><![CDATA[LW-SP ${1:rx} ${2:imm}${3: ; rx imm # rx ← MEM[SP + imm]}]]></content>
+    <tabTrigger>LW-SP</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	

@@ -1,0 +1,8 @@
+
+<snippet>
+    <description> imm # MEM[SP + imm]←RA</description>
+    <content><![CDATA[SW-RS ${1:imm}${2: ; imm # MEM[SP + imm]←RA}]]></content>
+    <tabTrigger>SW-RS</tabTrigger>
+    <scope>source.mips</scope>	
+</snippet>
+	
