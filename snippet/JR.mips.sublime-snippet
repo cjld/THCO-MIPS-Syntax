@@ -2,7 +2,8 @@
 <snippet>
     <description>PC ← rx
 </description>
-    <content><![CDATA[JR ${1:rx}]]></content>
+    <content><![CDATA[JR ${1:rx}${2: ;JR rx # PC ← rx
+}]]></content>
     <tabTrigger>JR</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

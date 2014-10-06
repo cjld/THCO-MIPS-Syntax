@@ -2,7 +2,8 @@
 <snippet>
     <description>rx ＜ ry 时T ← 1( 无符号)
 </description>
-    <content><![CDATA[SLTU ${1:rx} ${2:ry}]]></content>
+    <content><![CDATA[SLTU ${1:rx} ${2:ry}${3: ;SLTU rx ry # rx ＜ ry 时T ← 1( 无符号)
+}]]></content>
     <tabTrigger>SLTU</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

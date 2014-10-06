@@ -2,7 +2,8 @@
 <snippet>
     <description>rx = ry 时， T ← 0
 </description>
-    <content><![CDATA[CMP ${1:rx} ${2:ry}]]></content>
+    <content><![CDATA[CMP ${1:rx} ${2:ry}${3: ;CMP rx ry # rx = ry 时， T ← 0
+}]]></content>
     <tabTrigger>CMP</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

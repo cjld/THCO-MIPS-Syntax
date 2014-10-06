@@ -2,7 +2,8 @@
 <snippet>
     <description>rx ← rx & ry
 </description>
-    <content><![CDATA[AND ${1:rx} ${2:ry}]]></content>
+    <content><![CDATA[AND ${1:rx} ${2:ry}${3: ;AND rx ry # rx ← rx & ry
+}]]></content>
     <tabTrigger>AND</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

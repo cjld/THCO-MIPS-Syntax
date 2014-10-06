@@ -2,7 +2,8 @@
 <snippet>
     <description>PC ← PC + sign_ext(imm)
 </description>
-    <content><![CDATA[B ${1:imm}]]></content>
+    <content><![CDATA[B ${1:imm}${2: ;B imm # PC ← PC + sign_ext(imm)
+}]]></content>
     <tabTrigger>B</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

@@ -2,7 +2,8 @@
 <snippet>
     <description>rz ← rx - ry
 </description>
-    <content><![CDATA[SUBU ${1:rx} ${2:ry} ${3:rz}]]></content>
+    <content><![CDATA[SUBU ${1:rx} ${2:ry} ${3:rz}${4: ;SUBU rx ry rz # rz ← rx - ry
+}]]></content>
     <tabTrigger>SUBU</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

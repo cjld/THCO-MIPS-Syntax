@@ -2,7 +2,8 @@
 <snippet>
     <description>rx ← rx || ry
 </description>
-    <content><![CDATA[OR ${1:rx} ${2:ry}]]></content>
+    <content><![CDATA[OR ${1:rx} ${2:ry}${3: ;OR rx ry # rx ← rx || ry
+}]]></content>
     <tabTrigger>OR</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

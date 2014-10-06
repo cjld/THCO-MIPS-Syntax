@@ -2,7 +2,8 @@
 <snippet>
     <description>PC ← RA
 </description>
-    <content><![CDATA[JRRA]]></content>
+    <content><![CDATA[JRRA${1: ;JRRA # PC ← RA
+}]]></content>
     <tabTrigger>JRRA</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

@@ -2,7 +2,8 @@
 <snippet>
     <description>rx != 0  时跳转
 </description>
-    <content><![CDATA[BNEZ ${1:rx} ${2:imm}]]></content>
+    <content><![CDATA[BNEZ ${1:rx} ${2:imm}${3: ;BNEZ rx imm # rx != 0  时跳转
+}]]></content>
     <tabTrigger>BNEZ</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

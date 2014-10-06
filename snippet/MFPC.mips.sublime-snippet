@@ -2,7 +2,8 @@
 <snippet>
     <description>rx ← PC
 </description>
-    <content><![CDATA[MFPC ${1:rx}]]></content>
+    <content><![CDATA[MFPC ${1:rx}${2: ;MFPC rx # rx ← PC
+}]]></content>
     <tabTrigger>MFPC</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

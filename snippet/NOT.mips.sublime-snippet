@@ -2,7 +2,8 @@
 <snippet>
     <description>rx ← ~ ry
 </description>
-    <content><![CDATA[NOT ${1:rx} ${2:ry}]]></content>
+    <content><![CDATA[NOT ${1:rx} ${2:ry}${3: ;NOT rx ry # rx ← ~ ry
+}]]></content>
     <tabTrigger>NOT</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

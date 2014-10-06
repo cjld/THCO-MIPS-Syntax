@@ -2,7 +2,8 @@
 <snippet>
     <description>rx = 0 时 时  跳转
 </description>
-    <content><![CDATA[BEQZ ${1:rx} ${2:imm}]]></content>
+    <content><![CDATA[BEQZ ${1:rx} ${2:imm}${3: ;BEQZ rx imm # rx = 0 时 时  跳转
+}]]></content>
     <tabTrigger>BEQZ</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

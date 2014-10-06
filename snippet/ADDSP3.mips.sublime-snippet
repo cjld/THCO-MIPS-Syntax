@@ -2,7 +2,8 @@
 <snippet>
     <description>rx ← SP + sign_ext(imm)
 </description>
-    <content><![CDATA[ADDSP3 ${1:rx} ${2:imm}]]></content>
+    <content><![CDATA[ADDSP3 ${1:rx} ${2:imm}${3: ;ADDSP3 rx imm # rx ← SP + sign_ext(imm)
+}]]></content>
     <tabTrigger>ADDSP3</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

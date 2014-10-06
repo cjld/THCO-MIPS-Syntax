@@ -2,7 +2,8 @@
 <snippet>
     <description>rx ← ry>>immediate(A)
 </description>
-    <content><![CDATA[SRA ${1:rx} ${2:ry} ${3:imm}]]></content>
+    <content><![CDATA[SRA ${1:rx} ${2:ry} ${3:imm}${4: ;SRA rx ry imm # rx ← ry>>immediate(A)
+}]]></content>
     <tabTrigger>SRA</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

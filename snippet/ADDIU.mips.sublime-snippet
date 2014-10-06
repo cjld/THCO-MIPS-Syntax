@@ -2,7 +2,8 @@
 <snippet>
     <description>rx ← rx + sign_ext(imm)
 </description>
-    <content><![CDATA[ADDIU ${1:rx} ${2:imm}]]></content>
+    <content><![CDATA[ADDIU ${1:rx} ${2:imm}${3: ;ADDIU rx imm # rx ← rx + sign_ext(imm)
+}]]></content>
     <tabTrigger>ADDIU</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

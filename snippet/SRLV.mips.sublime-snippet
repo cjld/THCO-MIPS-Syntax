@@ -2,7 +2,8 @@
 <snippet>
     <description>ry ← ry>>rx(L)
 </description>
-    <content><![CDATA[SRLV ${1:rx} ${2:ry}]]></content>
+    <content><![CDATA[SRLV ${1:rx} ${2:ry}${3: ;SRLV rx ry # ry ← ry>>rx(L)
+}]]></content>
     <tabTrigger>SRLV</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

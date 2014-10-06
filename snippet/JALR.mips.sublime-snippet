@@ -2,7 +2,8 @@
 <snippet>
     <description>PC ← rx RA ← PC
 </description>
-    <content><![CDATA[JALR ${1:rx}]]></content>
+    <content><![CDATA[JALR ${1:rx}${2: ;JALR rx # PC ← rx RA ← PC
+}]]></content>
     <tabTrigger>JALR</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>

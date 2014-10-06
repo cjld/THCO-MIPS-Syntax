@@ -2,7 +2,8 @@
 <snippet>
     <description>rx ← + sign_ext(imm)
 </description>
-    <content><![CDATA[LI ${1:rx} ${2:imm}]]></content>
+    <content><![CDATA[LI ${1:rx} ${2:imm}${3: ;LI rx imm # rx ← + sign_ext(imm)
+}]]></content>
     <tabTrigger>LI</tabTrigger>
     <scope>source.mips</scope>	
 </snippet>
