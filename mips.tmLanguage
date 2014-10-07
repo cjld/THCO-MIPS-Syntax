@@ -64,7 +64,7 @@
 			<key>comment</key>
 			<string>Just the hardcoded instructions provided by the MIPS assembly language</string>
 			<key>match</key>
-			<string>\b(SLL|SRL|SRA|SLLV|SRLV|SRAV|MTSP|MOVE|ADDU|SUBU|MFPC|SLT|SLTU|CMP|NEG|AND|OR|XOR|NOT|MFIH|MTIH|SW_RS|SW_SP|SW|LW_SP|LW|ADDIU3|ADDSP3|ADDSP|ADDIU|LI|SLTI|SLTUI|CMPI|B|BEQZ|BNEZ|BTEQZ|BTNEZ|JR|JRRA|JALR|INT|NOP)\b</string>
+			<string>\b(SLL|SRL|SRA|SLLV|SRLV|SRAV|MTSP|MOVE|ADDU|SUBU|MFPC|SLT|SLTU|CMP|NEG|AND|OR|XOR|NOT|MFIH|MTIH|SW-RS|SW-SP|SW|LW-SP|LW|ADDIU3|ADDSP3|ADDSP|ADDIU|LI|SLTI|SLTUI|CMPI|B|BEQZ|BNEZ|BTEQZ|BTNEZ|JR|JRRA|JALR|INT|NOP)\b</string>
 			<key>name</key>
 			<string>support.function.source.mips</string>
 		</dict>
